@@ -1,0 +1,216 @@
+.desktop-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-slategray);
+  width: 309px;
+  height: 1024px;
+}
+.image-1-icon {
+  position: absolute;
+  top: 47px;
+  left: 33px;
+  width: 190px;
+  height: 69px;
+  object-fit: cover;
+}
+.home {
+  position: relative;
+  text-decoration: underline;
+}
+.find-lawyer {
+  position: relative;
+  font-weight: 600;
+}
+.home-parent {
+  position: absolute;
+  top: 189px;
+  left: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-xl);
+  color: var(--color-gainsboro);
+}
+.kashish-gandhi {
+  position: absolute;
+  top: 65px;
+  left: 1237px;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+.kashish {
+  color: var(--color-lightsteelblue);
+}
+.our-services,
+.welcome-kashish {
+  position: absolute;
+  top: 133px;
+  left: 338px;
+  font-size: var(--font-size-9xl);
+  font-weight: 600;
+}
+.our-services {
+  top: 345px;
+}
+.lorem-ipsum-dolor {
+  position: absolute;
+  top: 197px;
+  left: 338px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 1061px;
+}
+.click-here {
+  text-decoration: underline;
+  color: var(--color-lightsteelblue);
+}
+.not-sure-click-container {
+  position: absolute;
+  top: 566px;
+  left: 338px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 1061px;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightsteelblue);
+  border: 3px solid var(--color-slategray);
+  box-sizing: border-box;
+  width: 110px;
+  height: 43px;
+}
+.ask-ai {
+  position: absolute;
+  top: 9px;
+  left: 41px;
+  font-weight: 600;
+}
+.vector-icon {
+  position: absolute;
+  height: 41.86%;
+  width: 18.73%;
+  top: 27.91%;
+  right: 71.27%;
+  bottom: 30.23%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.desktop-1-item,
+.rectangle-parent {
+  position: absolute;
+  left: 338px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangle-parent {
+  top: 55px;
+  width: 110px;
+  height: 43px;
+  color: var(--color-darkslategray);
+}
+.desktop-1-item {
+  top: 273px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 176px;
+  height: 39px;
+}
+.find-lawyer1 {
+  position: absolute;
+  top: 280px;
+  left: 378px;
+  font-weight: 600;
+  color: var(--color-darkslategray);
+}
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 280px;
+  height: 123px;
+}
+.corporate-law {
+  position: absolute;
+  top: 14px;
+  left: 21px;
+  font-weight: 600;
+  color: var(--color-darkslategray);
+}
+.lorem-ipsum-dolor1,
+.view-top-lawyers {
+  position: absolute;
+  top: 44px;
+  left: 21px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  width: 244px;
+}
+.view-top-lawyers {
+  top: 93px;
+  left: 150px;
+  font-size: var(--font-size-3xs);
+  text-decoration: underline;
+  font-weight: 600;
+  text-align: right;
+  width: 115px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 123px;
+}
+.desktop-1-inner,
+.group-div,
+.rectangle-container,
+.rectangle-parent1 {
+  position: absolute;
+  top: 410px;
+  left: 338px;
+  width: 280px;
+  height: 123px;
+  color: var(--color-slategray);
+}
+.group-div,
+.rectangle-container,
+.rectangle-parent1 {
+  left: 641px;
+}
+.group-div,
+.rectangle-parent1 {
+  left: 944px;
+}
+.rectangle-parent1 {
+  left: 1247px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 58px;
+  left: 1361px;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
