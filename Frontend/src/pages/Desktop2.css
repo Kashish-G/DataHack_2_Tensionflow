@@ -1,0 +1,304 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+.desktop-2-child {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--color-slategray);
+  width: 309px;
+  height: 1024px;
+}
+.image-1-icon1 {
+  position: absolute;
+  top: 47px;
+  left: 33px;
+  width: 190px;
+  height: 69px;
+  object-fit: cover;
+}
+.home1 {
+  position: relative;
+  font-weight: 600;
+}
+.find-lawyer2 {
+  position: relative;
+  text-decoration: underline;
+}
+.home-group {
+  position: absolute;
+  top: 189px;
+  left: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-xl);
+  color: var(--color-gainsboro);
+}
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-lightsteelblue);
+  box-sizing: border-box;
+  width: 341px;
+  height: 139px;
+}
+.group-child3 {
+  position: absolute;
+  top: 17px;
+  left: 12px;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+}
+.div,
+.mahika-agrawal {
+  position: absolute;
+  top: 20px;
+  left: 55px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.div {
+  left: 295px;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 10.79%;
+  width: 4.6%;
+  top: 17.99%;
+  right: 15.04%;
+  bottom: 71.22%;
+  left: 80.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.real-estate-law {
+  position: absolute;
+  top: 44px;
+  left: 56px;
+  font-weight: 300;
+}
+.avg-charge-21606,
+.experience-13-years {
+  position: absolute;
+  top: 74px;
+  left: 56px;
+}
+.avg-charge-21606 {
+  top: 94px;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 768px;
+  left: 347px;
+  width: 341px;
+  height: 139px;
+  font-size: var(--font-size-sm);
+  color: var(--color-gainsboro);
+}
+.group-child4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 176px;
+  height: 39px;
+}
+.find-lawyer3 {
+  position: absolute;
+  top: 7px;
+  left: 40px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray);
+  text-align: left;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 678px;
+  left: 338px;
+  width: 176px;
+  height: 39px;
+}
+.group-button:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.group-child5 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-slategray);
+  border: 2px solid var(--color-slategray);
+  box-sizing: border-box;
+  width: 272px;
+  height: 43px;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 7.69%;
+  width: 3.42%;
+  top: 67.95%;
+  right: 6.14%;
+  bottom: 24.36%;
+  left: 90.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dropdown-buttonsimple-text-o {
+  position: absolute;
+  top: 38px;
+  left: 18px;
+}
+.language-preference-1-parent,
+.language-preference-3-parent {
+  position: absolute;
+  top: 455px;
+  left: 922px;
+  width: 272px;
+  height: 78px;
+}
+.language-preference-1-parent {
+  left: 338px;
+}
+.location {
+  position: absolute;
+  top: 0;
+  left: 8px;
+}
+.location-parent,
+.service-type-parent {
+  position: absolute;
+  top: 351px;
+  left: 338px;
+  width: 272px;
+  height: 78px;
+}
+.service-type-parent {
+  top: 564px;
+}
+.case-type-parent,
+.jurisdiction-level-parent,
+.language-preference-2-parent {
+  position: absolute;
+  top: 564px;
+  left: 922px;
+  width: 272px;
+  height: 78px;
+}
+.case-type-parent,
+.language-preference-2-parent {
+  left: 630px;
+}
+.language-preference-2-parent {
+  top: 455px;
+}
+.give-us-a-short-description-of-parent {
+  width: 856px;
+  position: absolute;
+  top: 236px;
+  left: 338px;
+}
+.kashish-gandhi1 {
+  position: absolute;
+  top: 65px;
+  left: 1275px;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+.finder {
+  color: var(--color-lightsteelblue);
+}
+.lawyer-finder {
+  position: absolute;
+  top: 133px;
+  left: 338px;
+  font-size: var(--font-size-9xl);
+  font-weight: 600;
+}
+.desktop-2-item {
+  position: absolute;
+  top: 58px;
+  left: 1400px;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+}
+.group-child12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightsteelblue);
+  border: 3px solid var(--color-slategray);
+  box-sizing: border-box;
+  width: 110px;
+  height: 43px;
+}
+.ask-ai1 {
+  position: absolute;
+  top: 9px;
+  left: 41px;
+  font-weight: 600;
+}
+.vector-icon9 {
+  position: absolute;
+  height: 41.86%;
+  width: 18.73%;
+  top: 27.91%;
+  right: 71.27%;
+  bottom: 30.23%;
+  left: 10%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-parent3 {
+  position: absolute;
+  top: 55px;
+  left: 338px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 110px;
+  height: 43px;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+}
+.please-provide-details-container {
+  position: absolute;
+  top: 182px;
+  left: 338px;
+}
+.desktop-2 {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
