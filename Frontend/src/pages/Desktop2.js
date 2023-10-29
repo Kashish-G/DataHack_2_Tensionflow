@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Menu, MenuItem } from "@mui/material";
 import { Form } from "react-bootstrap";
 import "./Desktop2.css";
+import { Link } from 'react-router-dom';
 
 const Desktop2 = () => {
   const [selectedLanguage3, setSelectedLanguage3] = useState(null);
@@ -144,7 +145,8 @@ const Desktop2 = () => {
         <div className="home1">Help</div>
       </div>
       </div>
-      <div className="rectangle-parent2">
+      <Link to="/desktop-3">
+      <div className="rectangle-parent2" >
         <div className="group-child2" />
         <img className="group-child3" alt="" src="/ellipse-1@2x.png" />
         <div className="mahika-agrawal">Mahika Agrawal</div>
@@ -154,6 +156,7 @@ const Desktop2 = () => {
         <div className="experience-13-years">Experience: 13 years</div>
         <div className="avg-charge-21606">Avg Charge: 216.06 USD/hour</div>
       </div>
+      </Link>
       <button className="group-button">
         <div className="group-child4" />
         <div className="find-lawyer3">Find Lawyer</div>

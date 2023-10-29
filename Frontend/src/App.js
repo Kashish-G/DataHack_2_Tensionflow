@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Desktop1 from "./pages/Desktop1";
 import Desktop2 from "./pages/Desktop2";
+import Desktop3 from "./pages/Desktop3";
+// import UseAlan from "./pages/UseAlan";
 
 function App() {
   const action = useNavigationType();
@@ -52,6 +54,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Desktop1 />} />
       <Route path="/desktop-2" element={<Desktop2 />} />
+      <Route path="/desktop-3" element={<Desktop3 />} />
+      {/* <Route path="UseAlan" element={<UseAlan />} /> */}
     </Routes>
   );
 }
