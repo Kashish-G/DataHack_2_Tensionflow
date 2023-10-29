@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+
+    <h3>{{title}}</h3>
+
+    <div>
+        <form action="" method="GET">
+            {{ search_filter.form }}
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <hr>
+    <!-- {% for item in page_obj %}
+        {{ item.Lawyer_Name }}
+        {% empty %}
+        <p>Not Found</p>
+    {% endfor %} -->
+
+    <table class="table table-striped table-hover">
+
+        <thead class = "table-dark">
+            <tr>
+                <th scope = "col">Lawyer Name</th>
+                <th scope = "col">Rating</th>
+                <th scope = "col">Jurisdiction</th>
+                <th scope = "col">Charges</th>
+                <th scope = "col">Days_of_disposal</th>
+                <th scope = "col">City</th>
+                <th scope = "col">Years_of_Experience</th>
+                <th scope = "col">Type_of_Lawyer</th>
+                <th scope = "col">Languages</th>
+                <th scope = "col">Pro_bono</th>
+                <th scope = "col">Lawfirms</th>
+                <th scope = "col">Demography</th>
+                <th scope = "col">Gender</th>
+            </tr>
+        </thead>
+            {% for lawyer in page_obj %}
+            <tbody>
+                <tr>
+                    <td>{{ lawyer.Lawyer_Name }}</td>
+                    <td> {{ lawyer.Rating }} </td>
+                    <td> {{ lawyer.Jurisdiction }} </td>
+                    <td> {{ lawyer.Charges }} </td>
+                    <td> {{ lawyer.Days_of_disposal }} </td>
+                    <td> {{ lawyer.City }} </td>
+                    <td> {{ lawyer.Years_of_Experience }} </td>
+                    <td> {{ lawyer.Type_of_Lawyer }} </td>
+                    <td> {{ lawyer.Languages }} </td>
+                    <td> {{ lawyer.Pro_bono }} </td>
+                    <td> {{ lawyer.Lawfirms }} </td>
+                    <td> {{ lawyer.Demography }} </td>
+                    <td> {{ lawyer.Gender }} </td>
+                </tr>
+            </tbody>
+            {% empty %}
+            <p>No Results Found</p>
+            {% endfor %}
+    </table>
+
+    <div class = "pagination">
+        <span class = "step-links">
+            {% if page_obj.has_previous %}
+                <a href = "?page=1">&laquo; First</a>
+                <a href = "?page={{ page_obj.previous_page_number }}">Previous</a>
+            {% endif %}
+
+            <span class = "current">
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            {% if page_obj.has_next %}
+                <a href = "?page={{ page_obj.next_page_number }}">Next</a>
+                <a href = "?page={{ page_obj.paginator.num_pages }}">Last &raquo;</a>
+            {% endif %} 
+        </span>
+    </div>
+</body>
+</html>
