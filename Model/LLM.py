@@ -16,7 +16,9 @@ if st.button("Get Recommendations"):
     )
     llm = OpenAI(openai_api_key="")
     model = llm
+    
     str_chain = prompt | model | StrOutputParser()
+    
     categories = [i.replace("and ", "") for i in str_chain.invoke({"input": user_query}).strip().replace("[",'').split(', ')]
 
     df_new = pd.read_csv(r"C:\Users\a21ma\OneDrive\Desktop\Datahack\DataHack_2_Tensionflow\Vector Database\recproject\FINALFINALFINALdataset.csv")  # Replace with your actual file path
