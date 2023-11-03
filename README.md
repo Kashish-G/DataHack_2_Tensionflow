@@ -1,6 +1,6 @@
 # Datahack 2.0 
 
-## Legal Ninja: Client-Attorney Matchmaking Platform
+## Legal Ninja: Client-Attorney Matchmaking Platform
 
 **Problem Statement:**
 - To develop an innovative MLOps-driven platform that seamlessly connects clients with legal experts
