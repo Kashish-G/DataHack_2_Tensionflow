@@ -1,7 +1,6 @@
 # Datahack 2.0 
 
-## Legal Ninja: Client-Attorney Matchmaking Platform ([Presentation Link]([https://www.canva.com/design/DAFyl2b0In8/mfn191GaibZq6LpR5WXeKA/edit?utm_content=DAFyl2b0In8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]([https://github.com/Kashish-G/DataHack_2_Tensionflow/blob/main/DataHack%202.0%20Tensionflow.pdf](https://www.canva.com/design/DAFyl2b0In8/mfn191GaibZq6LpR5WXeKA/edit?utm_content=DAFyl2b0In8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))))
-
+## Legal Ninja: Client-Attorney Matchmaking Platform ([Presentation Link](https://www.canva.com/design/DAFyl2b0In8/mfn191GaibZq6LpR5WXeKA/edit?utm_content=DAFyl2b0In8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
 **Problem Statement:**
 - To develop an innovative MLOps-driven platform that seamlessly connects clients with legal experts
 - This platform should harness the power of Machine Learning Operations (MLOps) to facilitate precise matches based on client’s unique legal concerns and attorney’s specialized expertise
